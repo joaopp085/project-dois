@@ -1,0 +1,19 @@
+header{
+background-color: rgb(8, 127, 224);/*cor de fundo*/
+color: rgb(11, 81, 211); /*cor da fonte*/
+text-align: center;
+max: width 800px;
+margin: 0 auto;
+}
+main{
+background-color: rgb(122, 114, 238);/*cor de fundo do texto principal*/
+color: rgb(12, 29, 75);/*cor da fonte*/
+text-align: center; /*alinhamento do texto*/
+max-width: 800px;/*largura maxima*/
+margin: 0 auto;/*margens*/
+}
+
+footer{
+background-color: rgb(71, 68, 212);/* cor de fundo do radapé*/
+color: rgb(55, 22, 236);/* cor da fonte*/
+}
