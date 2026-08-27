@@ -1,19 +1,34 @@
-header{
-background-color: rgb(130, 199, 240);/*cor de fundo*/
-color: rgb(110, 9, 114); /*cor da fonte*/
-text-align: center;
-max: width 800px;
-margin: 0 auto;
+header{ 
+ background-color: rgb(0, 123, 206);/*cor de fundo*/   
+  color: rgb(214, 45, 45);/*cor de texto*/ 
+ text-align: center;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 16px;/*espaciamento interno*/
+border: 5px solid rgb(184, 21, 121);
 }
 main{
-background-color: rgb(122, 114, 238);/*cor de fundo do texto principal*/
-color: rgb(12, 29, 75);/*cor da fonte*/
-text-align: center; /*alinhamento do texto*/
+  background-color: rgb(80, 46, 18); 
+  color: black;
+  text-align: center;/*alinhamento do texto*/
+  max-width: 800px;/*largura máxima*/ 
+  margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+padding: 16px;/*escapamento interno*/
+  display: flex;/*habilita o uso de flex box*/
+flex-direction: row/*orienta os elemento na horizontal na ordem 1 2 3 */;
+} 
+ 
+footer{ 
+  background-color: rgb(0, 0, 0);/*cor de fundo*/
+color:rgb(36, 96, 187) /*cor de fonte*/
 max-width: 800px;/*largura maxima*/
-margin: 0 auto;/*margens*/
+display: flex;/*habilita o uso de flex box*/
+margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 }
-
-footer{
-background-color: rgb(71, 68, 212);/* cor de fundo do radapé*/
-color: rgb(55, 22, 236);/* cor da fonte*/
+img{
+width: 80px;/*largura*/
+height: 80px;/*altura*/
+}
+.artigo-autor{
+font-weight: bold;
 }
