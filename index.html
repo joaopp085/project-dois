@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt/br">
+!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,48 +9,32 @@
 </head>
 
 <body>
-<header>
+    <header>-
+       <h1>Meu blog tech</h1> 
+       <p>vou comprtilhar conhecimentos sobre tecnologia e programação</p>
+    </header>
 
-<h1>Meu blog tech</h1>
-<p>vou compartilhar conhecimento sobre tecnologia 
-e progamação </p>
-</header>
-    
-<main>
-<img src="png.webp" alt="imagem de um livro">
-<div>
- <h2>Meu primeiros post</h2>
-<p class="artigo-autor" Por natany p>
-<p>Boas-vindas ao meu blog</p>
+    <main>
+        <img src="image.png" alt="Ilustração estilizada em vetor de uma pilha de três livros coloridos com um lápis no topo">
+        <div>
+        <h2>Meu primeiro post</h2>
+        <p class="artigo-autor">por Gilmar Horchulhak</p>
+        <p>boas vindas ao meu blog!</p>
+        <button>😁<span>0</span></button>
+        </div>
+    </main>
 
-<button>💜<span>0</span></button>
-</div>
-
-</main>
-
-<footer>Rodapé</footer>
-<main>
-
-<footer>Rodapé</footer>
-
-<body>
+    <footer>Rodapé</footer>
+</body>
 <script>
-    const botoes=document.querySelectorAll("button");//cria uma variável chamada botão selicionada a tag "button"
-botoes.forEac(function(botao){
-botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado 
- function botaoClicado(){//cria uma função
-console.log("Fui clicado");//mostra se o botão foi clicado 
-let texto=document.querySelector("span");// cria uma variavel se o botão foi clicado 
-texto.textContent++; //muda o valor de texto adicinando de uma unidade
-
-}
-}
-)
-
-
-
-
-
+    const botao=document.querySelector("button")//cria uma variavel chamada botao selecionado a tag "button"
+    botoes.forEach(function(botao){
+    botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado 
+    function botaoClicado(){ //cria uma função 
+        console.log("Fui clicado");//mostra se o boão foi clicado
+        let texto=document.querySelector("span")//cria uma variavel chamada "texto" selecionando a tag span
+        texto=texContent++; //muda o valor do texto adicionando de uma unidade 
+    }
+    })
 </script>
-
-<html>
+</html>     
